@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: GA-beluga-playbacks
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Sonny
+    family-names: Schoenhoft
+    email: soschoenhoft@gmail.com
+    orcid: 'https://orcid.org/0009-0007-4696-2431'
+    affiliation: Stephen F. Austin State University
+repository-code: 'https://github.com/soschoenhoft/GA-beluga-playbacks.git'
+url: 'https://github.com/soschoenhoft/GA-beluga-playbacks.git'
+keywords:
+  - beluga whale
+  - bioacoustics
+  - individual recognition
+  - playback experiment
+  - habituation dishabituation
+  - animal communication
+license: MIT
+version: 2025.09.2+418
