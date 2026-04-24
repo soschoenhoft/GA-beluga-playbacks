@@ -141,15 +141,15 @@ source("Beluga_Code.R")
 
 #•	Upon acceptance, the following will be added:
     
-    #- Author names and affiliations
+#- Author names and affiliations
     
-    #- Corresponding author/s contact details
+#- Corresponding author/s contact details
     
-    #- Repository DOI (GitHub)
+#- Repository DOI (GitHub)
     
-    #- Link to preprint (if applicable)
+#- Link to preprint (if applicable)
     
-    #- Link to published article
+#- Link to published article
 
 # License
 #•	An open-source license (MIT) will be applied to the code upon acceptance
