@@ -2,6 +2,7 @@
 
 # Files Included: 
 #Beluga_Dataset_Schoenhoft_et_al_2026.xlsx
+
 #Beluga_Code.R
 
 # Summary: 
@@ -10,6 +11,7 @@
 
 # File: Beluga_Dataset_Schoenhoft_et_al_2026.xlsx
 #•	Dataset used for all analyses 
+
 #•	Contains one row per session within a playback trial
 
 # Column Names and Descriptions:
