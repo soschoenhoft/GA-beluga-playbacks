@@ -37,7 +37,7 @@ library(writexl)
 
 # Update the read excel path to the location of the dataset on your device
 
-beluga <- read_excel("Downloads/Beluga_Dataset_Schoenhoft_et_al_2026.xlsx")
+beluga <- read_excel("Downloads/Beluga_Dataset_et_al_2026.xlsx")
 
 View(beluga)
 
