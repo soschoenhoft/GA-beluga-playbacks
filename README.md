@@ -1,4 +1,4 @@
-# Study Title: Beluga Whales (Delphinapterus leucas) Discriminate Individual Callers Across Multiple Call Types
+# Beluga Whales (Delphinapterus leucas) Discriminate Individual Callers Across Multiple Call Types
 
 # Files Included: 
 #Beluga_Dataset_Schoenhoft_et_al_2026.xlsx
