@@ -7,7 +7,6 @@
 # Summary: 
 #The repository contains the analysis R code and dataset required to reproduce the statistical analyses, figures, and table for a study examining whether beluga whales discriminate individual callers across multiple call types. The study uses habituation-dishabituation playback experiments and analyzes behavioral responses (primarily number of looks toward the playback speaker) using generalized linear mixed models (GLMMs). The goal is to test whether individual identity is encoded and perceived across distinct call structures.
 
-#--------------------------------------
 
 # File: Beluga_Dataset_Schoenhoft_et_al_2026.xlsx
 #•	Dataset used for all analyses 
