@@ -1,16 +1,23 @@
 # Beluga Whales (Delphinapterus leucas) Discriminate Individual Callers Across Multiple Call Types
-# Schoenhoft et al. 2026
+# 2026
 #
-# Author: Sonny Schoenhoft
+# Author: 
 # Software: RStudio Version 2025.09.2+418
 
 
 # DESCRIPTION
-# This script reproduces the statistical analyses for the figures, table, and the in-text results for the number of looks toward the underwater speaker after the playback had occurred. For each beluga call type, a generalized linear mixed model (GLMM) is fit with session_order as a fixed effect and target identity, caller identity, and trial number as random effects. Poisson is used by default; if check_overdispersion() returns as over or underdispersed, the model is refit as negative binomial (nbinom2) and the better fitting model (lower AIC, less over/underdispersion) is retained as the final model. Pairwise session contrasts are extracted with emmeans on the response scale (back-transformed rate ratios) with Tukey adjustment. Cohen's d and 95% CIs are computed for the three key contrasts (0 vs 1, 1 vs 3, 3 vs 4) using the effsize package with paired = TRUE on the raw look counts.
+# This script reproduces the statistical analyses for the figures, table, and the in-text results for the number of looks 
+# toward the underwater speaker after the playback had occurred. For each beluga call type, a generalized linear mixed model (GLMM) 
+# is fit with session_order as a fixed effect and target identity, caller identity, and trial number as random effects. 
+# Poisson is used by default; if check_overdispersion() returns as over or underdispersed, the model is refit as negative binomial (nbinom2) 
+# and the better fitting model (lower AIC, less over/underdispersion) is retained as the final model. Pairwise session contrasts 
+# are extracted with emmeans on the response scale (back-transformed rate ratios) with Tukey adjustment. Cohen's d and 95% CIs are 
+# computed for the three key contrasts (0 vs 1, 1 vs 3, 3 vs 4) using the effsize package with paired = TRUE on the raw look counts.
 
 
 # REPRODUCIBILITY NOTE
-# All seven call types use the same model structure. The choice between Poisson and negative binomial is data-driven and recorded in the `final_family` object so the user can verify which family was used per call type.
+# All seven call types use the same model structure. 
+# The choice between Poisson and negative binomial is data-driven and recorded in the `final_family` object so the user can verify which family was used per call type.
 
 #Load in library ----------------------------------------------------------------
 
