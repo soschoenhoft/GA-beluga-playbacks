@@ -1,8 +1,9 @@
 # Beluga Whales (Delphinapterus leucas) Discriminate Individual Callers Across Multiple Call Types
 # 2026
 #
-# Author: 
+# Author: Sonny Schoenhoft
 # Software: RStudio Version 2025.09.2+418
+# Script Version 1.0
 
 
 # DESCRIPTION
@@ -37,7 +38,7 @@ library(writexl)
 
 # Update the read excel path to the location of the dataset on your device
 
-beluga <- read_excel("Downloads/Beluga_Dataset_et_al_2026.xlsx")
+beluga <- read_excel("Downloads/Beluga_Dataset_Schoenhoft_2026.xlsx")
 
 View(beluga)
 
