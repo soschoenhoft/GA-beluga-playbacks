@@ -1,7 +1,7 @@
 # Beluga Whales (Delphinapterus leucas) Discriminate Individual Callers Across Multiple Call Types
 
 # Files Included: 
-Beluga_Dataset_et_al_2026.xlsx
+Beluga_Dataset_Schoenhoft_2026.xlsx
 
 Beluga_Code.R
 
@@ -9,7 +9,7 @@ Beluga_Code.R
 The repository contains the analysis R code and dataset required to reproduce the statistical analyses, figures, and table for a study examining whether beluga whales discriminate individual callers across multiple call types. The study uses habituation-dishabituation playback experiments and analyzes behavioral responses (primarily number of looks toward the playback speaker) using generalized linear mixed models (GLMMs). The goal is to test whether individual identity is encoded and perceived across distinct call structures.
 
 
-# File: Beluga_Dataset_et_al_2026.xlsx
+# File: Beluga_Dataset_Schoenhoft_2026.xlsx
 •	Dataset used for all analyses 
 
 •	Contains one row per session within a playback trial
@@ -84,7 +84,7 @@ Platform: aarch64-apple-darwin20
 Running under: macOS Sequoia 15.7.4
 
 # Code Version and Reproducibility
-Script version: v1.0
+Script Version: v1.0
 
 Manual versioning is used for this submission.
 
@@ -109,7 +109,7 @@ install.packages(c("readxl","dplyr","tidyr","ggplot2","lme4","glmmTMB","emmeans"
 setwd("path_to_repository") 
 
 3.	Ensure the dataset file path is correct in the script:
-beluga <- read_excel("Beluga_Dataset_et_al_2026.xlsx") 
+beluga <- read_excel("Beluga_Dataset_Schoenhoft_2026.xlsx") 
 
 4.	Run the analysis script:
 source("Beluga_Code.R") 
@@ -141,4 +141,4 @@ source("Beluga_Code.R")
     - Link to published article
 
 # License
-•	An open-source license (MIT) has been selected
+•	An open-source license (MIT) has been selected for this repository.
